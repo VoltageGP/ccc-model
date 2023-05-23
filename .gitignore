@@ -1,8 +1,45 @@
-#Executables
+# Prerequisites
+*.d
+
+# bin directories
+**/bin/
+bin/
+**/target/
+libs/
+
+# Compiled Object files
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
 *.out
 *.app
 
-#Mac stuff
-*.DS_Store
+#.ccls file
+.ccls-cache
 
+#Just Mac things
+.DS_Store
+
+
+*.~undo-tree~.gz
